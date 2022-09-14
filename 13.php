@@ -26,7 +26,7 @@
 						    <ul class="dropdown-menu">
 						    	<?php
 						    		$INDEX = 13;
-							    	$handle = fopen("list.txt", "r");
+							    	$handle = fopen("txt/list.txt", "r");
 									if ($handle) {
 										$i = 0;
 										while ($line = fgets($handle)) {
@@ -50,8 +50,8 @@
 	    		<h1 class="text-info"><a href="12.php" class="btn btn-light"><i class="bi bi-caret-left-fill"></i></a>&nbsp;<span class="arabic">يَا نَبِيْ سَلَامْ عَلَيْكُمْ</span>&nbsp;<a href="14.php" class="btn btn-light"><i class="bi bi-caret-right-fill"></i></a></h1>
 		    	<!-- <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p> -->
 			    <?php 
-			    	$handle = fopen("13.txt", "r");
-			    	$translation = fopen("13.translation.txt", "r");
+			    	$handle = fopen("txt/13.txt", "r");
+			    	$translation = fopen("txt/13.translation.txt", "r");
 					if ($handle) {
 						$num = 0;
 					    while ($line = fgets($handle)) {

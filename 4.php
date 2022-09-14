@@ -25,7 +25,7 @@
 						    <ul class="dropdown-menu">
 						    	<?php
 						    		$INDEX = 4;
-							    	$handle = fopen("list.txt", "r");
+							    	$handle = fopen("txt/list.txt", "r");
 									if ($handle) {
 										$i = 0;
 										while ($line = fgets($handle)) {
@@ -51,8 +51,8 @@
 				<br>
 		    	<!-- <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p> -->
 			    <?php 
-			    	$handle = fopen("4.txt", "r");
-			    	$translation = fopen("4.translation.txt", "r");
+			    	$handle = fopen("txt/4.txt", "r");
+			    	$translation = fopen("txt/4.translation.txt", "r");
 					if ($handle) {
 						$num = 0;
 					    while ($line = trim(fgets($handle))) {

@@ -23,7 +23,7 @@
 						    <a class="nav-link fw-bold py-1 px-0 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <i class="bi bi-card-list"></i></a>
 						    <ul class="dropdown-menu">
 						    	<?php 
-							    	$handle = fopen("list.txt", "r");
+							    	$handle = fopen("txt/list.txt", "r");
 									if ($handle) {
 										$i = 0;
 										while ($line = fgets($handle)) {
@@ -43,7 +43,7 @@
 
 		    	<!-- <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p> -->
 		    	<?php 
-			    	$handle = fopen("intro.txt", "r");
+			    	$handle = fopen("txt/intro.txt", "r");
 					if ($handle) {
 						$i = 0;
 						echo "<h2 class='arabic'>";
