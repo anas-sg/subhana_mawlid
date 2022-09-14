@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Al Qalam Quran Majeed';
+    src: url('AlQalamQuranMajeed.eot');
+    src: local('Al Qalam Quran Majeed'), local('AlQalamQuranMajeed'),
+        url('AlQalamQuranMajeed.eot?#iefix') format('embedded-opentype'),
+        url('AlQalamQuranMajeed.woff2') format('woff2'),
+        url('AlQalamQuranMajeed.woff') format('woff'),
+        url('AlQalamQuranMajeed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
